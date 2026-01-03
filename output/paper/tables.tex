@@ -1,0 +1,128 @@
+% Publication-Ready Tables for VBM Extension Paper
+% Compile with LaTeX
+
+% Table 1: Replication of Original Results
+\begin{table}[htbp]
+\centering
+\caption{Replication of Thompson et al. (2020) Original Results}
+\label{tab:replication}
+\begin{tabular}{lccc}
+\toprule
+& \multicolumn{3}{c}{Specification} \\
+\cmidrule(lr){2-4}
+Outcome & Basic & Linear Trends & Quadratic Trends \\
+\midrule
+\multicolumn{4}{l}{\textit{Panel A: Democratic Vote Share}} \\[0.5em]
+VBM Effect & 0.028** & 0.011** & 0.007* \\
+& (0.011) & (0.004) & (0.003) \\
+Observations & 1,998 & 1,998 & 1,998 \\
+Counties & 126 & 126 & 126 \\[0.5em]
+\multicolumn{4}{l}{\textit{Panel B: Turnout}} \\[0.5em]
+VBM Effect & 0.021** & 0.022*** & 0.021** \\
+& (0.009) & (0.007) & (0.008) \\
+Observations & 1,240 & 1,240 & 1,240 \\
+Counties & 126 & 126 & 126 \\
+\midrule
+County FE & Yes & Yes & Yes \\
+State $\times$ Year FE & Yes & Yes & Yes \\
+County Linear Trends & No & Yes & Yes \\
+County Quadratic Trends & No & No & Yes \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Notes:} Standard errors clustered by county in parentheses. Democratic vote share is the two-party Democratic share pooled across presidential, gubernatorial, and senate races. Turnout is total ballots divided by citizen voting age population. Sample period: 1996-2018.
+\item * $p<0.10$, ** $p<0.05$, *** $p<0.01$
+\end{tablenotes}
+\end{table}
+
+
+% Table 2: Original vs Extended Results
+\begin{table}[htbp]
+\centering
+\caption{Comparison of Original and Extended Period Results}
+\label{tab:extension}
+\begin{tabular}{llcc}
+\toprule
+& & Original & Extended \\
+Outcome & Specification & (1996-2018) & (1996-2024) \\
+\midrule
+\multicolumn{4}{l}{\textit{Panel A: Democratic Vote Share}} \\[0.5em]
+& Basic & 0.029** & 0.024*** \\
+& & (0.011) & (0.007) \\
+& Linear Trends & 0.011** & 0.006* \\
+& & (0.004) & (0.003) \\
+& Quadratic Trends & 0.007* & 0.003 \\
+& & (0.004) & (0.003) \\
+& Observations & 1,998 & 2,376 \\[0.5em]
+\multicolumn{4}{l}{\textit{Panel B: Turnout}} \\[0.5em]
+& Basic & 0.021** & 0.026*** \\
+& & (0.009) & (0.006) \\
+& Linear Trends & 0.022*** & 0.020*** \\
+& & (0.007) & (0.005) \\
+& Quadratic Trends & 0.021** & 0.021*** \\
+& & (0.008) & (0.006) \\
+& Observations & 1,240 & 1,492 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Notes:} Standard errors clustered by county in parentheses. All specifications include county and state-year fixed effects. Extended sample adds 2020, 2022, and 2024 elections.
+\item * $p<0.10$, ** $p<0.05$, *** $p<0.01$
+\end{tablenotes}
+\end{table}
+
+
+% Table 3: Heterogeneity by Adoption Cohort
+\begin{table}[htbp]
+\centering
+\caption{Treatment Effects by VCA Adoption Cohort}
+\label{tab:cohort}
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{4}{c}{VCA Adoption Cohort} \\
+\cmidrule(lr){2-5}
+Outcome & 2018 & 2020 & 2022 & 2024 \\
+& (5 counties) & (10 counties) & (12 counties) & (3 counties) \\
+\midrule
+Democratic Vote Share & 0.032** & $-$0.007 & 0.006 & $-$0.014 \\
+(Presidential) & (0.011) & (0.011) & (0.011) & (0.045) \\[0.5em]
+Turnout & 0.025** & 0.028** & 0.029** & 0.041 \\
+& (0.008) & (0.011) & (0.010) & (0.023) \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Notes:} Estimates from models including all cohort treatment indicators simultaneously. Standard errors clustered by county in parentheses. Models include county and state-year fixed effects.
+\item * $p<0.10$, ** $p<0.05$, *** $p<0.01$
+\end{tablenotes}
+\end{table}
+
+
+% Table 4: Robustness Checks
+\begin{table}[htbp]
+\centering
+\caption{Robustness Checks: Democratic Vote Share}
+\label{tab:robustness}
+\begin{tabular}{lcc}
+\toprule
+Specification & Coefficient & SE \\
+\midrule
+\multicolumn{3}{l}{\textit{Sample Restrictions}} \\
+Full sample (baseline) & 0.024*** & (0.007) \\
+Presidential elections only & 0.016** & (0.007) \\
+Exclude 2024 & 0.026*** & (0.008) \\
+Post-2018 only & $-$0.011 & (0.005) \\
+California only & 0.019* & (0.010) \\
+Exclude California & 0.029*** & (0.010) \\[0.5em]
+\multicolumn{3}{l}{\textit{Alternative Specifications}} \\
+Placebo (2016, pilot counties) & 0.031** & (0.011) \\
+CVAP-weighted & $-$0.004 & (0.005) \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+\item \textit{Notes:} All specifications include county and state-year fixed effects (or county and year FE for California-only). Standard errors clustered by county in parentheses. Baseline uses the basic specification without trends.
+\item * $p<0.10$, ** $p<0.05$, *** $p<0.01$
+\end{tablenotes}
+\end{table}

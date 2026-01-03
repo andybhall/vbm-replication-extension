@@ -1,0 +1,59 @@
+county,vca18,vca20,vca_eligible18,vca_eligible20
+alameda,0,0,0,1
+alpine,0,0,0,1
+amador,0,1,0,1
+butte,0,1,0,1
+calaveras,0,1,1,1
+colusa,0,0,0,1
+contra costa,0,0,0,1
+del norte,0,0,0,1
+el dorado,0,1,0,1
+fresno,0,1,0,1
+glenn,0,0,0,1
+humboldt,0,0,0,1
+imperial,0,0,0,1
+inyo,0,0,1,1
+kern,0,0,0,1
+kings,0,0,0,1
+lake,0,0,0,1
+lassen,0,0,0,1
+los angeles,0,1,0,1
+madera,1,1,1,1
+marin,0,0,0,1
+mariposa,0,1,0,1
+mendocino,0,0,0,1
+merced,0,0,0,1
+modoc,0,0,0,1
+mono,0,0,0,1
+monterey,0,0,0,1
+napa,1,1,1,1
+nevada,1,1,1,1
+orange,0,1,1,1
+placer,0,0,0,1
+plumas,0,0,0,1
+riverside,0,0,0,1
+sacramento,1,1,1,1
+san benito,0,0,0,1
+san bernardino,0,0,0,1
+san diego,0,0,0,1
+san francisco,0,0,0,1
+san joaquin,0,0,0,1
+san luis obispo,0,0,1,1
+san mateo,1,1,1,1
+santa barbara,0,0,0,1
+santa clara,0,1,1,1
+santa cruz,0,0,0,1
+shasta,0,0,1,1
+sierra,0,0,1,1
+siskiyou,0,0,0,1
+solano,0,0,0,1
+sonoma,0,0,0,1
+stanislaus,0,0,0,1
+sutter,0,0,1,1
+tehama,0,0,0,1
+trinity,0,0,0,1
+tulare,0,0,0,1
+tuolumne,0,1,1,1
+ventura,0,0,0,1
+yolo,0,0,0,1
+yuba,0,0,0,1

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large raw data files (too big for GitHub)
+# These can be re-downloaded from original sources
+data/raw/cvap_2018_2022/
+data/raw/cvap_2018_2022.zip
+data/raw/2022-elections-official/
+data/raw/US_County_Level_Election_Results_08-24/
+
+# Keep processed and extension data (small, needed for replication)

@@ -1,0 +1,209 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0032_ds225_20165_2016_blck_grp'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2012-2016
+Geographic level: Block Group (by State--County--Census Tract)
+Extent:           California
+                  Utah
+                  Washington
+Dataset:          2016 American Community Survey: 5-Year Data [2012-2016, Block Groups & Larger Areas]
+   NHGIS code:    2012_2016_ACS5a
+   NHGIS ID:      ds225
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  AF2M
+ 
+2. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  AF43
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2017-2019, 115th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AF2M
+        AF2ME001:    Total
+        AF2ME002:    White alone
+        AF2ME003:    Black or African American alone
+        AF2ME004:    American Indian and Alaska Native alone
+        AF2ME005:    Asian alone
+        AF2ME006:    Native Hawaiian and Other Pacific Islander alone
+        AF2ME007:    Some other race alone
+        AF2ME008:    Two or more races
+        AF2ME009:    Two or more races: Two races including Some other race
+        AF2ME010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 2:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AF43
+        AF43E001:    Total
+        AF43E002:    Under .50
+        AF43E003:    .50 to .99
+        AF43E004:    1.00 to 1.24
+        AF43E005:    1.25 to 1.49
+        AF43E006:    1.50 to 1.84
+        AF43E007:    1.85 to 1.99
+        AF43E008:    2.00 and over
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  AF2M
+        AF2MM001:    Total
+        AF2MM002:    White alone
+        AF2MM003:    Black or African American alone
+        AF2MM004:    American Indian and Alaska Native alone
+        AF2MM005:    Asian alone
+        AF2MM006:    Native Hawaiian and Other Pacific Islander alone
+        AF2MM007:    Some other race alone
+        AF2MM008:    Two or more races
+        AF2MM009:    Two or more races: Two races including Some other race
+        AF2MM010:    Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 2:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  AF43
+        AF43M001:    Total
+        AF43M002:    Under .50
+        AF43M003:    .50 to .99
+        AF43M004:    1.00 to 1.24
+        AF43M005:    1.25 to 1.49
+        AF43M006:    1.50 to 1.84
+        AF43M007:    1.85 to 1.99
+        AF43M008:    2.00 and over
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 14.0 
+        [Database]. Minneapolis, MN: IPUMS. 2019. 
+        http://doi.org/10.18128/D050.V14.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
