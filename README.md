@@ -2,6 +2,12 @@
 
 ## "Universal Vote-by-Mail Has No Impact on Partisan Turnout or Vote Share"
 
+> **Note:** This project is an experiment in the use of AI to produce new empirical research. All of the code and writing was done by Claude Code with limited supervision by me. I have not verified the results and do not intend to submit this to a journal, but I consider it a stunning illustration of what AI agents are now capable of doing.
+>
+> — Andrew B. Hall
+
+---
+
 This repository contains a complete replication and extension of Thompson, Wu, Yoder, and Hall (2020), published in the *Proceedings of the National Academy of Sciences*.
 
 **Original Paper**: Thompson, D. M., Wu, J. A., Yoder, J., & Hall, A. B. (2020). Universal vote-by-mail has no impact on partisan turnout or vote share. *PNAS*, 117(25), 14052-14056.
