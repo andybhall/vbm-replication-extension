@@ -1,5 +1,20 @@
 # Data Extraction Summary: 8 Included sMRI Studies
 
+## Comparison Focus
+
+This scoping review focuses on **within-diagnosis smoking comparisons** rather than between-group diagnostic comparisons:
+
+| Comparison | Definition | Priority |
+|------------|------------|----------|
+| **Within-diagnosis smoking** | SZ-Smokers vs. SZ-Non-smokers | PRIMARY |
+| **Diagnosis × Smoking interaction** | Does smoking affect SZ differently than HC? | SECONDARY |
+| **Symptom × Smoking** | Brain-symptom correlations in smokers | TERTIARY |
+| Between-group (SZ vs. HC) | General SZ brain differences | Context only* |
+
+*Between-group (SZ vs. HC) comparisons are well-characterized in existing meta-analyses and not the focus of this review.
+
+---
+
 ## Study Characteristics Overview
 
 | Study | N | Scanner | Analysis | Key Outcome |
@@ -73,7 +88,22 @@
 
 ---
 
-## Diagnosis × Smoking Interactions
+## PRIMARY: Within-Diagnosis Smoking Effects (SZ-Smokers vs. SZ-Non-smokers)
+
+| Study | Brain Region | Direction | Effect Size |
+|-------|--------------|-----------|-------------|
+| Tregellas 2007 | Lateral PFC, STG | ↑ in smokers | Not reported |
+| Van Haren 2010 | Global GM (>25 CPD only) | ↓ in heavy smokers | Progressive loss |
+| Schneider 2014 | Hippocampus, DLPFC | ↓ in smokers | 2.2-2.8% reduction |
+| Jørgensen 2015 | Left rostral ACC, insula | ↓ in smokers | ~0.05mm thinner |
+| Yokoyama 2018 | Left prefrontal | ↓ in smokers | Additive effect |
+| Ringin 2022 | Multiple cortical | Mixed | Interaction-dependent |
+| Qiu 2024 | Insula, striatum, hippocampus | ↓ with tobacco | Multimodal |
+| Musket 2026 | Hippocampus | TBD | TBD |
+
+---
+
+## SECONDARY: Diagnosis × Smoking Interactions
 
 | Study | Interaction Found? | Interpretation |
 |-------|-------------------|----------------|
@@ -90,15 +120,17 @@
 
 ---
 
-## Symptom Severity Correlations
+## TERTIARY: Symptom Severity × Smoking × Brain Correlations
 
 | Study | Scale | Brain-Symptom-Smoking Link |
 |-------|-------|---------------------------|
-| Van Haren 2010 | PANSS | Not specifically reported |
-| Schneider 2014 | Yes (unspecified) | Not specifically reported |
-| Yokoyama 2018 | PANSS | Smaller left PFC associated with more positive/negative symptoms |
-| Ringin 2022 | Yes | Cognition also examined |
-| Qiu 2024 | SBS | PFC GMV negatively correlated with symptom burden in SZ smokers |
+| Van Haren 2010 | PANSS | Not specifically reported for smoking |
+| Schneider 2014 | Yes (unspecified) | Not specifically reported for smoking |
+| Yokoyama 2018 | PANSS | **Yes**: Smaller left PFC associated with more positive/negative symptoms; pack-years correlated |
+| Ringin 2022 | Yes | Cognition also examined; interaction effects |
+| Qiu 2024 | SBS | **Yes**: PFC GMV negatively correlated with symptom burden in SZ smokers |
+
+**Key insight**: Two studies (Yokoyama, Qiu) show that smoking-related brain differences correlate with symptom severity, suggesting a potential mechanism.
 
 ---
 
