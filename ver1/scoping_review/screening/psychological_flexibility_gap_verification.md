@@ -76,10 +76,10 @@ This document records the systematic verification that no existing studies combi
 
 | Search | Combination | Studies Found |
 |--------|-------------|---------------|
-| 1 | Psy Flex + sMRI + Schizophrenia | 0 |
-| 2 | Psy Flex + sMRI + Smoking | 0 |
+| 1 | Psychological Flexibility + sMRI + Schizophrenia | 0 |
+| 2 | Psychological Flexibility + sMRI + Smoking | 0 |
 | 3 | ACT processes + sMRI (any population) | 0 |
-| 4 | Psy Flex + sMRI + Smoking + Schizophrenia | 0 |
+| 4 | Psychological Flexibility + sMRI + Smoking + Schizophrenia | 0 |
 
 ---
 
@@ -121,7 +121,7 @@ Studies examining "cognitive flexibility" in schizophrenia smokers (e.g., using 
 
 | Date | Search Performed | Database/Source | Result |
 |------|-----------------|-----------------|--------|
-| Jan 2026 | Psy flex + sMRI + schizophrenia | Web search | 0 studies |
+| Jan 2026 | Psychological flexibility + sMRI + schizophrenia | Web search | 0 studies |
 | Jan 2026 | ACT + neuroimaging + schizophrenia | Web search | 0 sMRI studies |
 | Jan 2026 | AAQ-II + brain structure | Web search | 0 studies |
 | Jan 2026 | Cognitive defusion + brain | Web search | fMRI only, no sMRI |
