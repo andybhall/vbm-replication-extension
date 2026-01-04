@@ -129,9 +129,52 @@ Studies examining "cognitive flexibility" in schizophrenia smokers (e.g., using 
 
 ---
 
+## Adjacent Literature: What Does Exist
+
+While no sMRI studies examine psychological flexibility, related research provides the theoretical foundation for this extension.
+
+### Behavioral Evidence
+
+**Psychological flexibility in schizophrenia:**
+Schizophrenia patients demonstrate significantly lower psychological flexibility than healthy controls on the AAQ-II. ACT interventions improve both psychological flexibility and clinical outcomes in this population.
+
+**ACT for smoking cessation:**
+Meta-analyses confirm ACT significantly increases smoking cessation rates (RR=1.48). Psychological flexibility mediates treatment effects.
+
+**The intersection:**
+One RCT directly tested ACT for smoking cessation in schizophrenia patients (2021), demonstrating clinical feasibility at this intersection.
+
+### Functional Neuroimaging Evidence
+
+**AAQ-II and brain connectivity (2025):**
+The first study to directly examine psychological flexibility with fMRI found that higher AAQ-II scores (greater flexibility) correlate with stronger anticorrelation between the default mode network and dorsal attention network. Lower flexibility associated with altered putamen and frontoparietal connectivity.
+
+**ACT intervention effects:**
+- Opioid addiction + chronic pain: ACT reduced activation in middle frontal gyrus, ACC, insula, and PCC (Smallwood 2016)
+- OCD: ACT altered posterior cingulate-precuneus connectivity (Lee 2024)
+
+### The Regional Overlap
+
+The brain regions implicated in psychological flexibility by fMRI research overlap substantially with those showing structural differences in schizophrenia smokers:
+
+- Prefrontal cortex (DLPFC, lateral PFC)
+- Anterior cingulate cortex
+- Insula
+- Putamen/basal ganglia
+
+This convergence suggests a mechanistic link worth investigating.
+
+---
+
 ## Next Steps
 
 1. Include psychological flexibility gap finding in scoping review discussion
 2. Highlight as rationale for planned primary study
 3. During database searches (Phase 1), use dedicated psychological flexibility search strings
 4. Document any new studies found that may partially address the gap
+
+---
+
+## See Also
+
+- `protocol/theoretical_justification.md` - Full narrative justification for psychological flexibility inclusion
