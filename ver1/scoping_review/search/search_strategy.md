@@ -22,6 +22,16 @@ This document contains the full search strategies for the scoping review:
 
 ---
 
+## Important Screening Note
+
+**MRI Search Strategy Rationale**: The imaging search terms use BROAD MRI terminology (not only "sMRI" or "structural MRI") because:
+1. Many studies simply report "MRI" without specifying "structural" in title/abstract
+2. Studies may say "brain MRI" or just "magnetic resonance imaging" but actually include T1-weighted structural scans
+
+**During abstract/full-text screening**: Verify each study actually contains structural MRI data (T1-weighted scans, VBM, cortical thickness, gray matter volume, etc.) rather than only fMRI, DTI, or other modalities. Studies using only "MRI" keyword require manual verification of imaging modality.
+
+---
+
 ## Database 1: PubMed/MEDLINE
 
 ### Main Search String
@@ -39,6 +49,7 @@ AND
 
 (("Magnetic Resonance Imaging"[Mesh] OR "Gray Matter"[Mesh] OR "Brain"[Mesh:NoExp] OR
 "structural MRI"[tiab] OR "structural magnetic resonance"[tiab] OR sMRI[tiab] OR
+MRI[tiab] OR "magnetic resonance imaging"[tiab] OR "brain MRI"[tiab] OR
 "gray matter"[tiab] OR "grey matter"[tiab] OR "cortical thickness"[tiab] OR
 "brain volume"[tiab] OR "voxel-based morphometry"[tiab] OR VBM[tiab] OR
 "brain structure"[tiab] OR "cortical volume"[tiab] OR "subcortical volume"[tiab] OR
@@ -69,9 +80,11 @@ AB(smoking OR smoker* OR tobacco OR cigarette* OR nicotine))
 AND
 
 (DE "Magnetic Resonance Imaging" OR DE "Neuroimaging" OR
-TI("structural MRI" OR sMRI OR "gray matter" OR "grey matter" OR "cortical thickness" OR
+TI("structural MRI" OR sMRI OR MRI OR "magnetic resonance" OR "brain MRI" OR
+"gray matter" OR "grey matter" OR "cortical thickness" OR
 "brain volume" OR VBM OR "voxel-based morphometry" OR morphometry OR "brain structure") OR
-AB("structural MRI" OR sMRI OR "gray matter" OR "grey matter" OR "cortical thickness" OR
+AB("structural MRI" OR sMRI OR MRI OR "magnetic resonance" OR "brain MRI" OR
+"gray matter" OR "grey matter" OR "cortical thickness" OR
 "brain volume" OR VBM OR "voxel-based morphometry" OR morphometry OR "brain structure"))
 ```
 
@@ -88,7 +101,7 @@ AB("structural MRI" OR sMRI OR "gray matter" OR "grey matter" OR "cortical thick
 
 2. exp smoking/ or exp tobacco/ or exp nicotine/ or (smoking or smoker* or tobacco or cigarette* or nicotine).ti,ab.
 
-3. exp nuclear magnetic resonance imaging/ or exp brain cortex/ or exp brain volume/ or ("structural MRI" or sMRI or "gray matter" or "grey matter" or "cortical thickness" or "brain volume" or VBM or "voxel-based morphometry" or morphometry or "brain structure").ti,ab.
+3. exp nuclear magnetic resonance imaging/ or exp brain cortex/ or exp brain volume/ or ("structural MRI" or sMRI or MRI or "magnetic resonance imaging" or "brain MRI" or "gray matter" or "grey matter" or "cortical thickness" or "brain volume" or VBM or "voxel-based morphometry" or morphometry or "brain structure").ti,ab.
 
 4. 1 AND 2 AND 3
 ```
@@ -115,8 +128,10 @@ AB(smoking OR smoker* OR tobacco OR cigarette* OR nicotine))
 AND
 
 (MH "Magnetic Resonance Imaging" OR
-TI("structural MRI" OR "gray matter" OR "grey matter" OR "cortical thickness" OR "brain volume" OR VBM OR morphometry) OR
-AB("structural MRI" OR "gray matter" OR "grey matter" OR "cortical thickness" OR "brain volume" OR VBM OR morphometry))
+TI("structural MRI" OR MRI OR "magnetic resonance" OR "brain MRI" OR
+"gray matter" OR "grey matter" OR "cortical thickness" OR "brain volume" OR VBM OR morphometry) OR
+AB("structural MRI" OR MRI OR "magnetic resonance" OR "brain MRI" OR
+"gray matter" OR "grey matter" OR "cortical thickness" OR "brain volume" OR VBM OR morphometry))
 ```
 
 **Results**: [TO BE COMPLETED]
@@ -136,7 +151,7 @@ TS=(smoking OR smoker* OR tobacco OR cigarette* OR nicotine)
 
 AND
 
-TS=("structural MRI" OR sMRI OR "gray matter" OR "grey matter" OR "cortical thickness" OR "brain volume" OR VBM OR "voxel-based morphometry" OR morphometry OR "brain structure")
+TS=("structural MRI" OR sMRI OR MRI OR "magnetic resonance imaging" OR "brain MRI" OR "gray matter" OR "grey matter" OR "cortical thickness" OR "brain volume" OR VBM OR "voxel-based morphometry" OR morphometry OR "brain structure")
 ```
 
 **Results**: [TO BE COMPLETED]
