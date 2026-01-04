@@ -64,7 +64,7 @@
 - Ventricular volumes
 - Cerebellar volumes
 
-**Excluded imaging modalities:**
+**Excluded imaging modalities (as sole modality):**
 - Functional MRI (fMRI) - task-based or resting-state
 - Diffusion tensor imaging (DTI) / Diffusion-weighted imaging (DWI)
 - Positron emission tomography (PET)
@@ -72,6 +72,8 @@
 - Magnetic resonance spectroscopy (MRS)
 - Electroencephalography (EEG)
 - Magnetoencephalography (MEG)
+
+**IMPORTANT**: If a study uses multiple modalities (e.g., fMRI + sMRI), include the study and extract ONLY the sMRI-related findings. Do not exclude studies solely because they also report fMRI/DTI results.
 
 **Analysis approaches accepted:**
 - Voxel-based morphometry (VBM)

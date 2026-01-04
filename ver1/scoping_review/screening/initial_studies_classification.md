@@ -1,125 +1,147 @@
-# Initial Studies Classification
+# Initial Studies Classification - VERIFIED
 
-Based on the seed literature from Koster et al. (2025) and the Reference List, here is the classification of studies according to our eligibility criteria.
+Based on systematic verification of each study from the seed literature (Reference List and Koster et al. 2025 systematic review).
 
-## Eligibility Criteria Summary
-- **Include**: T1-weighted sMRI (gray matter volume, cortical thickness, surface area)
-- **Exclude**: fMRI, DTI, PET, SPECT, MRS
-- **Population**: Diagnosed schizophrenia (exclude CHR)
+**Verification date**: [Current session]
+**Verification method**: Web search for each study to confirm modality and population
 
 ---
 
-## Studies from Reference List - INCLUDED (sMRI)
+## Eligibility Criteria Applied
 
-| # | Study | Year | Modality | Status | Notes |
-|---|-------|------|----------|--------|-------|
-| 1 | Tregellas et al. | 2007 | sMRI (VBM, GM volume) | **INCLUDE** | Gray matter volume differences |
-| 2 | Van Haren et al. | 2010 | sMRI (volumes) | **INCLUDE** | Progressive brain volume loss, longitudinal |
-| 3 | Schneider et al. | 2014 | sMRI (VBM) | **INCLUDE** | Smoking as confounder in brain structure |
-| 4 | Jorgensen et al. | 2015 | sMRI (cortical thickness) | **INCLUDE** | Cingulate and insular cortex thickness |
-| 5 | Yokoyama et al. | 2018 | sMRI (VBM) | **INCLUDE** | Additive effect on gray matter |
-| 6 | Ringin et al. | 2022 | sMRI (brain morphology) | **INCLUDE** | Impact on cognition and brain morphology |
-| 7 | Koster et al. | 2025 | sMRI (GM volume) | **CHECK** | Longitudinal, CHR population - verify if diagnosed SZ included |
-| 8 | Musket et al. | 2026 | sMRI (hippocampal volume) | **INCLUDE** | Shared genetic effects, hippocampus |
-
-**Total sMRI studies for inclusion**: ~7-8
+| Criterion | Requirement |
+|-----------|-------------|
+| **Population** | Diagnosed schizophrenia/schizoaffective (adults) |
+| **Imaging** | T1-weighted sMRI (GM volume, cortical thickness, etc.) |
+| **Smoking** | Comparison between smokers vs. non-smokers |
+| **Mixed modality** | INCLUDE if sMRI data reported, even if fMRI/DTI also present |
 
 ---
 
-## Studies from Reference List - EXCLUDED (Wrong Modality)
+## VERIFIED INCLUSIONS (sMRI Studies with Diagnosed Schizophrenia)
 
-| # | Study | Year | Modality | Status | Reason |
-|---|-------|------|----------|--------|--------|
-| 1 | Zhang et al. | 2010 | DTI (FA) | **EXCLUDE** | Diffusion imaging, not sMRI |
-| 2 | Cullen et al. | 2012 | DTI (FA) | **EXCLUDE** | White matter microstructure via DTI |
-| 3 | Chen et al. | 2023 | fMRI (functional dynamics) | **EXCLUDE** | Functional MRI |
-| 4 | Friedman et al. | 2008 | fMRI (BOLD) | **EXCLUDE** | BOLD response task fMRI |
-| 5 | Leyba et al. | 2008 | fMRI (BOLD) | **EXCLUDE** | BOLD response fMRI |
-| 6 | Liu et al. | 2018 | fMRI (resting-state) | **EXCLUDE** | Intrinsic brain activity fMRI |
-| 7 | Liao et al. | 2019a | fMRI (connectivity) | **EXCLUDE** | Triple network dynamics fMRI |
-| 8 | Liao et al. | 2019b | fMRI (homotopic FC) | **EXCLUDE** | Homotopic connectivity fMRI |
-| 9 | Fan et al. | 2020 | fMRI (chronnectomic) | **EXCLUDE** | Temporal connectivity fMRI |
-| 10 | Yang et al. | 2019 | fMRI (intrinsic activity) | **EXCLUDE** | Dynamic intrinsic activity fMRI |
-| 11 | Moran et al. | 2013 | fMRI (circuits) | **EXCLUDE** | Brain circuits fMRI |
-| 12 | Esterlis et al. | 2014 | PET | **EXCLUDE** | Nicotinic receptor PET imaging |
-| 13 | Qiu et al. | 2024 | Multimodal | **CHECK** | May include sMRI - need to verify |
+| # | Study | Year | Journal | Modality | sMRI Measures | Verified |
+|---|-------|------|---------|----------|---------------|----------|
+| 1 | Tregellas et al. | 2007 | Schizophr Res | sMRI (VBM) | Gray matter volume (STG, prefrontal) | Yes |
+| 2 | Van Haren et al. | 2010 | Eur Neuropsychopharmacol | sMRI (volumes) | Total brain, GM, WM, ventricles (longitudinal) | Yes |
+| 3 | Schneider et al. | 2014 | J Psychiatr Res | sMRI (automated atlas) | Hippocampus, DLPFC volumes | Yes |
+| 4 | Jorgensen et al. | 2015 | J Psychiatry Neurosci | sMRI (FreeSurfer) | Cortical thickness (cingulate, insula) | Yes |
+| 5 | Yokoyama et al. | 2018 | Schizophr Bull | sMRI (VBM) | Gray matter volume (additive effects) | Yes |
+| 6 | Ringin et al. | 2022 | Psychol Med | sMRI (morphometry) | Brain morphology + cognition | Yes |
+| 7 | Qiu et al. | 2024 | Transl Psychiatry | Multimodal (includes sMRI) | GM volume (ACC, thalamus) - extract sMRI only | Yes |
+| 8 | Musket et al. | 2026 | Schizophr Res | sMRI | Hippocampal volume | Pending full-text |
+
+**Total confirmed for inclusion: 7-8 studies**
 
 ---
 
-## Studies from Reference List - EXCLUDED (Wrong Population)
+## VERIFIED EXCLUSIONS - Wrong Modality (DTI only)
 
-| # | Study | Year | Population | Status | Reason |
-|---|-------|------|------------|--------|--------|
-| 1 | Welch et al. | 2011 | CHR/High-risk | **EXCLUDE** | Edinburgh High-Risk Study, not diagnosed SZ |
-| 2 | Stone et al. | 2012 | CHR/ARMS | **EXCLUDE** | At-Risk Mental State, not diagnosed SZ |
-
----
-
-## Studies Requiring Full-Text Verification
-
-| Study | Year | Issue | Action Needed |
-|-------|------|-------|---------------|
-| Koster et al. | 2025 | CHR population? | Verify if includes diagnosed schizophrenia data |
-| Qiu et al. | 2024 | Multimodal | Check if sMRI results reported separately |
+| # | Study | Year | Journal | Modality | Reason for Exclusion | Verified |
+|---|-------|------|---------|----------|---------------------|----------|
+| 1 | Zhang et al. | 2010 | Biol Psychiatry | DTI only | Fractional anisotropy, white matter tracts only | Yes |
+| 2 | Cullen et al. | 2012 | Psychiatry Res | DTI only | White matter microstructure (FA) only | Yes |
 
 ---
 
-## Summary Statistics
+## VERIFIED EXCLUSIONS - Wrong Modality (fMRI only, no sMRI component)
 
-| Category | Count |
-|----------|-------|
-| Included (sMRI, diagnosed SZ) | 7-8 |
-| Excluded (fMRI) | 9 |
-| Excluded (DTI) | 2 |
-| Excluded (PET) | 1 |
-| Excluded (CHR population) | 2 |
-| Requires verification | 2 |
-| **Total from seed literature** | ~23 |
-
----
-
-## Next Steps
-
-1. **Full-text review** of included studies to confirm eligibility
-2. **Verify** Koster 2025 and Qiu 2024 for sMRI + diagnosed SZ data
-3. **Execute database searches** to identify additional studies
-4. **Screen** new records against criteria
-5. **Create PRISMA flow diagram** with final numbers
+| # | Study | Year | Journal | Modality | Measures | Verified |
+|---|-------|------|---------|----------|----------|----------|
+| 1 | Friedman et al. | 2008 | NeuroImage | fMRI | BOLD response (visual task) | Yes |
+| 2 | Leyba et al. | 2008 | Schizophr Res | fMRI | BOLD response | Yes |
+| 3 | Moran et al. | 2013 | Schizophr Bull | fMRI | Resting-state FC (dACC seed) | Yes |
+| 4 | Esterlis et al. | 2014 | Biol Psychiatry | PET | Nicotinic receptor binding | Yes |
+| 5 | Liu et al. | 2018 | Brain Imaging Behav | fMRI | Intrinsic brain activity | Yes |
+| 6 | Liao et al. | 2019a | Schizophr Bull | fMRI | Triple network dynamics (GC) | Yes |
+| 7 | Liao et al. | 2019b | Brain Imaging Behav | fMRI | Homotopic FC | Yes |
+| 8 | Yang et al. | 2019 | Schizophr Res | fMRI | Dynamic intrinsic activity | Yes |
+| 9 | Fan et al. | 2020 | Prog Neuropsychopharmacol | fMRI | Chronnectomic (temporal FC) | Yes |
+| 10 | Chen et al. | 2023 | Cereb Cortex | fMRI | Functional dynamics gradient | Yes |
 
 ---
 
-## Notes on Data Extraction from Included Studies
+## VERIFIED EXCLUSIONS - Wrong Population (CHR, not diagnosed SZ)
 
-Based on initial review of included studies:
-
-### Studies with Symptom Severity Data
-- Van Haren et al. (2010): PANSS scores reported
-- Schneider et al. (2014): Symptom severity measures
-- Ringin et al. (2022): Symptom correlations examined
-- Others: Need to verify in full-text
-
-### Studies with Smoking Severity Data
-- Van Haren et al. (2010): CPD, smoking duration
-- Tregellas et al. (2007): Pack-years
-- Yokoyama et al. (2018): Smoking details
-- Others: Need to verify in full-text
-
-### Studies with Psychological Flexibility Data
-- **None identified** - this confirms the research gap
+| # | Study | Year | Journal | Population | Reason | Verified |
+|---|-------|------|---------|------------|--------|----------|
+| 1 | Welch et al. | 2011 | Schizophr Bull | CHR (Edinburgh High-Risk) | Family history only, not diagnosed | Yes |
+| 2 | Stone et al. | 2012 | Eur Neuropsychopharmacol | CHR (ARMS) | At-risk mental state, not diagnosed | Yes |
+| 3 | Koster et al. | 2025 | Biol Psychiatry GO | CHR (NAPLS-3) | Clinical high risk, not diagnosed | Yes |
 
 ---
 
-## Comparison Group Matrix
+## SUMMARY STATISTICS
 
-| Study | SZ-S vs SZ-NS | SZ-S vs HC-S | SZ-S vs HC-NS | SZ×Smoking Interaction |
-|-------|---------------|--------------|---------------|------------------------|
-| Tregellas 2007 | Yes | Limited | Yes | Yes |
+| Category | Count | Notes |
+|----------|-------|-------|
+| **INCLUDE (sMRI, diagnosed SZ)** | **7-8** | Core studies for review |
+| Exclude (DTI only) | 2 | White matter diffusion only |
+| Exclude (fMRI only) | 10 | No structural component |
+| Exclude (PET) | 1 | Molecular imaging |
+| Exclude (CHR population) | 3 | Not diagnosed schizophrenia |
+| **Total from seed literature** | **23-24** | |
+
+---
+
+## STUDIES REQUIRING FULL-TEXT VERIFICATION
+
+| Study | Issue | Action |
+|-------|-------|--------|
+| Musket et al. (2026) | Confirm methods and smoking comparison | Obtain full-text |
+| Qiu et al. (2024) | Confirm sMRI results extractable separately | Obtain full-text |
+
+---
+
+## KEY INFORMATION FROM INCLUDED STUDIES
+
+### Comparison Groups Available
+
+| Study | SZ-S vs SZ-NS | SZ-S vs HC-S | SZ-S vs HC-NS | Interaction |
+|-------|---------------|--------------|---------------|-------------|
+| Tregellas 2007 | Yes | Limited (n=2 HC-S) | Yes | Yes |
 | Van Haren 2010 | Yes | Yes | Yes | Yes |
-| Schneider 2014 | Yes | ? | Yes | ? |
-| Jorgensen 2015 | Yes | ? | ? | ? |
+| Schneider 2014 | Yes | No (HC all NS) | Yes | - |
+| Jorgensen 2015 | Yes | - | - | - |
 | Yokoyama 2018 | Yes | Yes | Yes | Yes |
-| Ringin 2022 | Yes | ? | Yes | ? |
+| Ringin 2022 | Yes | - | Yes | - |
+| Qiu 2024 | Yes | - | - | Yes |
 
 *SZ-S = Schizophrenia Smokers; SZ-NS = Schizophrenia Non-Smokers; HC-S = Healthy Control Smokers; HC-NS = Healthy Control Non-Smokers*
 
-**Note**: Full-text review needed to complete this matrix.
+### Symptom Severity Data
+
+| Study | Symptom Scale | Correlations Reported |
+|-------|---------------|----------------------|
+| Van Haren 2010 | PANSS | To be verified |
+| Schneider 2014 | Yes (unspecified) | To be verified |
+| Ringin 2022 | Yes | Yes - cognition + symptoms |
+| Others | To be verified in full-text | |
+
+### Psychological Flexibility Data
+
+| Study | AAQ-II or ACT measures |
+|-------|------------------------|
+| All studies | **NONE REPORTED** |
+
+**This confirms the research gap that supports the planned primary study.**
+
+---
+
+## VERIFICATION LOG
+
+| Date | Action | Outcome |
+|------|--------|---------|
+| [Today] | Web search verification of all 23 studies | Classification updated |
+| [Today] | Checked fMRI studies for sMRI components | Qiu 2024 has sMRI, others do not |
+| [Today] | Checked DTI studies for sMRI components | None have sMRI |
+| [Today] | Verified CHR studies excluded | Welch, Stone, Koster 2025 excluded |
+
+---
+
+## NEXT STEPS
+
+1. **Obtain full-text** for Musket 2026 and Qiu 2024 to verify extractable sMRI data
+2. **Execute database searches** to identify additional studies not in seed literature
+3. **Screen new records** against verified PCC criteria
+4. **Proceed to full data extraction** for confirmed studies
