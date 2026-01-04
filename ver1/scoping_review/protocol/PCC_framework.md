@@ -103,13 +103,35 @@
 
 ### 4. Psychological Flexibility (Novel Extension)
 
-**Measures to extract if reported:**
+**Definition**: Psychological flexibility refers to the ability to be present, open up, and do what matters - a core construct from Acceptance and Commitment Therapy (ACT). It encompasses processes such as acceptance, cognitive defusion, present-moment awareness, self-as-context, values, and committed action.
+
+**Primary measures to extract if reported:**
 - Acceptance and Action Questionnaire II (AAQ-II)
+- Acceptance and Action Questionnaire (AAQ) - original version
 - Cognitive Fusion Questionnaire (CFQ)
 - Valued Living Questionnaire (VLQ)
-- Other ACT-related measures
+- Comprehensive Assessment of ACT Processes (CompACT)
 
-**Expected: Very few or no studies will report this - documenting this gap is a key objective**
+**Related ACT process measures:**
+- Mindful Attention Awareness Scale (MAAS)
+- Five Facet Mindfulness Questionnaire (FFMQ)
+- Self-as-Context Scale (SACS)
+- Drexel Defusion Scale (DDS)
+- Engaged Living Scale (ELS)
+- Bull's-Eye Values Survey (BEVS)
+- Experiential Avoidance measures
+
+**Key comparisons of interest:**
+1. Psychological flexibility + sMRI: Smokers vs. non-smokers
+2. Psychological flexibility + sMRI: Schizophrenia vs. non-schizophrenia (healthy controls)
+3. If any study includes all three (psychological flexibility + sMRI + smoking + schizophrenia): INCLUDE
+
+**Gap verification (completed)**: Systematic searches confirm NO studies exist combining:
+- Psychological flexibility (ACT construct) + sMRI + schizophrenia
+- Psychological flexibility (ACT construct) + sMRI + smoking
+- This confirms the research gap that supports the planned primary study
+
+**Note**: "Cognitive flexibility" (task-switching, set-shifting) is a distinct construct from "psychological flexibility" (ACT). Do NOT conflate these terms. We are specifically interested in the ACT-based psychological flexibility construct.
 
 ---
 

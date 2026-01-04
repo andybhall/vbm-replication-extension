@@ -126,16 +126,21 @@ Based on systematic verification of each study from the seed literature (Referen
 
 **This confirms the research gap that supports the planned primary study.**
 
+**Extended verification completed**: Searched for any psychological flexibility or ACT-related measures (AAQ-II, CFQ, VLQ, MAAS, DDS, experiential avoidance) combined with sMRI in schizophrenia or smoking populations. **ZERO studies found.**
+
+See: `psychological_flexibility_gap_verification.md` for full documentation.
+
 ---
 
 ## VERIFICATION LOG
 
 | Date | Action | Outcome |
 |------|--------|---------|
-| [Today] | Web search verification of all 23 studies | Classification updated |
-| [Today] | Checked fMRI studies for sMRI components | Qiu 2024 has sMRI, others do not |
-| [Today] | Checked DTI studies for sMRI components | None have sMRI |
-| [Today] | Verified CHR studies excluded | Welch, Stone, Koster 2025 excluded |
+| Jan 2026 | Web search verification of all 23 studies | Classification updated |
+| Jan 2026 | Checked fMRI studies for sMRI components | Qiu 2024 has sMRI, others do not |
+| Jan 2026 | Checked DTI studies for sMRI components | None have sMRI |
+| Jan 2026 | Verified CHR studies excluded | Welch, Stone, Koster 2025 excluded |
+| Jan 2026 | Extended psychological flexibility search | Zero studies found (gap confirmed) |
 
 ---
 
