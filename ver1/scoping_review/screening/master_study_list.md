@@ -8,12 +8,18 @@
 | 2 | Van Haren | 2010 | 20227855 | Eur Neuropsychopharmacol | Longitudinal volumes | Total brain, GM, WM | ✓ |
 | 3 | Schneider | 2014 | 24373929 | J Psychiatr Res | Automated atlas | Hippocampus, DLPFC | ✓ |
 | 4 | Jørgensen | 2015 | 25672482 | J Psychiatry Neurosci | FreeSurfer CT | Cingulate, insula | ✓ |
-| 5 | Yu | 2018 | PMC5890451 | Front Psychiatry | VBM | Left prefrontal (additive effects) | ✓ |
+| 5 | Yokoyama | 2018 | PMC5890451 | Front Psychiatry | VBM | Left prefrontal (additive effects) | ✓ |
 | 6 | Ringin | 2022 | 33443010 | Psychol Med | CT, volume, SA | Multiple cortical regions | ✓ |
-| 7 | Qiu | 2024 | TBD | Transl Psychiatry | VBM (multimodal) | ACC, thalamus | Pending FT |
-| 8 | Musket | 2026 | TBD | Schizophr Res | sMRI | Hippocampus | Pending FT |
+| 7 | Qiu | 2024 | 39112461 | Transl Psychiatry | Multimodal (extract sMRI) | Multiple regions | ✓ |
+| 8 | Musket | 2026 | In press | Schizophr Res | sMRI | Hippocampus | Student data |
 
-**Total confirmed: 6 verified + 2 pending full-text = 8 studies**
+**Total confirmed: 8 studies**
+
+---
+
+## Full Reference: Qiu 2024
+
+Qiu L, Liang C, Kochunov P, Hutchison KE, Sui J, Jiang R, Zhi D, Vergara VM, Yang X, Zhang D, Fu Z, Bustillo JR, Qi S, Calhoun VD (2024). **Associations of alcohol and tobacco use with psychotic, depressive and developmental disorders revealed via multimodal neuroimaging.** *Translational Psychiatry*, 14:326. PMID: 39112461. DOI: 10.1038/s41398-024-03035-2
 
 ---
 
@@ -83,16 +89,30 @@
 
 ---
 
-## Excluded Studies (Wrong Modality or Population)
+## Excluded Studies (from Student's Original 13)
 
-### fMRI Only (10 studies)
-- Friedman 2008, Leyba 2008, Moran 2013, Liu 2018, Liao 2019a, Liao 2019b, Yang 2019, Fan 2020, Chen 2023, Esterlis 2014 (PET)
+### DTI Only - Wrong Modality (2 studies)
 
-### DTI Only (2 studies)
-- Zhang 2010, Cullen 2012
+| Author | Year | Title | Reason |
+|--------|------|-------|--------|
+| Zhang X | 2010 | Smoking and Schizophrenia Independently and Additively Reduce White Matter Integrity | DTI (FA in white matter tracts), not sMRI gray matter |
+| Cullen KR | 2012 | Cigarette smoking and white matter microstructure in schizophrenia | DTI only, measures FA not gray matter volume |
 
-### CHR Population (3 studies)
-- Welch 2011, Stone 2012, Koster 2025
+**Rationale**: DTI measures white matter microstructure, not gray matter. Our theoretical framework focuses on gray matter regions. See PCC_framework.md for full rationale.
+
+### CHR/ARMS Population - Wrong Population (3 studies)
+
+| Author | Year | Title | Reason |
+|--------|------|-------|--------|
+| Welch KA | 2010 | The Impact of Substance Use on Brain Structure in People at High Risk | CHR - genetic high-risk, not diagnosed schizophrenia |
+| Stone JW | 2012 | Substance Use and Regional Gray Matter Volume in Individuals at High Risk | ARMS population, not diagnosed schizophrenia |
+| Koster M | 2025 | Tobacco smoking and gray matter volume in individuals at clinical high risk | CHR (NAPLS-3), not diagnosed schizophrenia |
+
+**Rationale**: These studies examine individuals at risk for psychosis who have not yet been diagnosed with schizophrenia. Our review focuses on diagnosed schizophrenia/schizoaffective/schizophreniform disorder.
+
+### fMRI Only - Wrong Modality (from seed literature)
+- Friedman 2008, Leyba 2008, Moran 2013, Liu 2018, Liao 2019a, Liao 2019b, Yang 2019, Fan 2020, Chen 2023
+- Esterlis 2014 (PET, not MRI)
 
 ---
 

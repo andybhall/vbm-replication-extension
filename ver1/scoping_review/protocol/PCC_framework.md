@@ -73,6 +73,15 @@
 - Electroencephalography (EEG)
 - Magnetoencephalography (MEG)
 
+**Rationale for DTI Exclusion:**
+DTI measures white matter microstructure (fractional anisotropy, mean diffusivity) rather than gray matter volume or thickness. While DTI studies of smoking in schizophrenia exist (e.g., Zhang 2010; Cullen 2012), we exclude them because:
+1. DTI measures fundamentally different tissue (white matter tracts vs. gray matter regions)
+2. Our theoretical framework linking psychological flexibility to brain structure focuses on gray matter regions (prefrontal, ACC, insula) implicated in both constructs
+3. The planned primary study will acquire T1-weighted sMRI only, not DTI
+4. Combining gray matter and white matter findings would complicate synthesis
+
+This is acknowledged as a limitation; a separate review of DTI findings may be warranted.
+
 **IMPORTANT**: If a study uses multiple modalities (e.g., fMRI + sMRI), include the study and extract ONLY the sMRI-related findings. Do not exclude studies solely because they also report fMRI/DTI results.
 
 **Analysis approaches accepted:**
